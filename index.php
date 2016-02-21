@@ -16,9 +16,9 @@
 
         <div class="container">
             <h2>Sacha LHOPITAL</h2>
-            
+
             <br>
-            
+
             <ul class="nav nav-pills">
                 <li class="active"><a data-toggle="pill" href="#home">Accueil</a></li>
                 <li><a data-toggle="pill" href="#menu1">Qui suis-je ?</a></li>
@@ -28,15 +28,25 @@
             </ul>
 
             <div class="tab-content">
-            
+
                 <?php require_once('/html/home.html'); ?>
                 <?php require_once('/html/me.html'); ?>
                 <?php require_once('/html/projects.html'); ?>
                 <?php require_once('/html/cv.html'); ?>    
                 <?php require_once('/html/contact.html'); ?>
-                
+
             </div>
         </div>
+
+        <!-- jQuery -->
+        <script src="./js/jquery.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="./bootstrap/bootstrap.min.js"></script>
+
+        <!-- Scrolling Nav JavaScript -->
+        <script src="./js/jquery.easing.min.js"></script>
+        <script src="./js/scrolling-nav.js"></script>
 
     </body>
 </html>
