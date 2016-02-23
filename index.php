@@ -10,8 +10,6 @@
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     </head>
     <body>
 
@@ -45,10 +43,9 @@
                 <?php require_once('/html/projects.html'); ?>
                 <?php require_once('/html/cv.html'); ?>    
                 <?php require_once('/html/contact.html'); ?>
-
             </div>
         </div>
-        
+
         <footer class="footer">
             <div class="container">
                 <p> Sité réalisé avec <i class="fa fa-heart"></i> par Sacha Lhopital </p>
@@ -57,13 +54,38 @@
 
         <!-- jQuery -->
         <script src="./js/jquery.js"></script>
-
         <!-- Bootstrap Core JavaScript -->
-        <script src="./bootstrap/bootstrap.min.js"></script>
-
+        <script src="./bootstrap/js/bootstrap.min.js"></script>
         <!-- Scrolling Nav JavaScript -->
         <script src="./js/jquery.easing.min.js"></script>
         <script src="./js/scrolling-nav.js"></script>
+
+        <!-- Back to top button script -->
+        <script>
+             jQuery(document).ready(function() {
+
+                var offset = 250;
+                var duration = 300;
+
+                jQuery(window).scroll(function() {
+
+                    if (jQuery(this).scrollTop() > offset) {
+                        jQuery(‘.back-to-top’).fadeIn(duration);
+                    } else {
+                        jQuery(‘.back-to-top’).fadeOut(duration);
+                    }
+                });
+
+                &nbsp;
+
+                jQuery(‘.back-to-top’).click(function(event) {
+
+                    event.preventDefault();
+                    jQuery(‘html, body’).animate({scrollTop: 0}, duration);
+                    return false;
+                })
+            });
+        </script>
 
     </body>
 </html>

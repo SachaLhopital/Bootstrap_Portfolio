@@ -59,3 +59,16 @@
     display: inline-block;
 }
 
+/* ---------------------------------- BACK TO TOP BUTTON ----------------------------------------------------------------- */
+
+.back-to-top {
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.back-to-top i {
+    font-size: 60px;
+}
+
