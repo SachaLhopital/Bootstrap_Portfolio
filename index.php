@@ -48,6 +48,12 @@
 
             </div>
         </div>
+        
+        <footer class="footer">
+            <div class="container">
+                <p> Sité réalisé avec <i class="fa fa-heart"></i> par Sacha Lhopital </p>
+            </div>
+        </footer>
 
         <!-- jQuery -->
         <script src="./js/jquery.js"></script>
