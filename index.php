@@ -6,6 +6,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
 
@@ -15,17 +16,27 @@
     <body>
 
         <div class="container">
-            <h2>Sacha LHOPITAL</h2>
+            <img class="img-thumbnail img-responsive pull-left" src="images/profile.jpg" alt="Sacha Lhopital">
+            <div class="header">
+                <h2>Sacha Lhopital</h2>
+                <h3>Étudiante en Ingénieurie Informatique</h3>
+                <div class="social">
+                    <ul>
+                        <li><a href="https://github.com/SachaLhopital"><i class="fa fa-lg fa-github fa-3x"></i></a></li>
+                        <li><a href="https://fr.linkedin.com/in/sacha-lhopital-b6a308ba"><i class="fa fa-lg fa-linkedin-square fa-3x"></i></a></li>                        
+                        <li><a href="https://trello.com/sachapiquechoux"><i class="fa fa-lg fa-trello fa-3x"></i></a></li>
 
-            <br>
+                    </ul>
+                </div>
 
-            <ul class="nav nav-pills">
-                <li class="active"><a data-toggle="pill" href="#home">Accueil</a></li>
-                <li><a data-toggle="pill" href="#menu1">Qui suis-je ?</a></li>
-                <li><a data-toggle="pill" href="#menu2">Mes projets</a></li>
-                <li><a data-toggle="pill" href="#menu3">Embauchez-moi !</a></li>
-                <li><a data-toggle="pill" href="#menu4">Me contacter</a></li>
-            </ul>
+                <ul class="nav nav-pills">
+                    <li class="active"><a data-toggle="pill" href="#home">Accueil</a></li>
+                    <li><a data-toggle="pill" href="#menu1">Qui suis-je ?</a></li>
+                    <li><a data-toggle="pill" href="#menu2">Mes projets</a></li>
+                    <li><a data-toggle="pill" href="#menu3">Embauchez-moi !</a></li>
+                    <li><a data-toggle="pill" href="#menu4">Me contacter</a></li>
+                </ul>
+            </div>
 
             <div class="tab-content">
 
