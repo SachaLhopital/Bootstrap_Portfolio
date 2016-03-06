@@ -38,11 +38,11 @@
 
             <div class="tab-content">
 
-                <?php require_once('/html/home.html'); ?>
-                <?php require_once('/html/me.html'); ?>
-                <?php require_once('/html/projects.html'); ?>
-                <?php require_once('/html/cv.html'); ?>    
-                <?php require_once('/html/contact.html'); ?>
+                <?php require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Bootstrap_Portfolio/html/home.html'); ?>
+                <?php require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Bootstrap_Portfolio/html/me.html'); ?>
+                <?php require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Bootstrap_Portfolio/html/projects.html'); ?>
+                <?php require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Bootstrap_Portfolio/html/cv.html'); ?>    
+                <?php require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Bootstrap_Portfolio/html/contact.html'); ?>
             </div>
         </div>
 
