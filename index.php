@@ -16,16 +16,27 @@
         <div class="container">
             <img class="img-thumbnail img-responsive pull-left" src="images/profile.jpg" alt="Sacha Lhopital">
             <div class="header">
-                <h2>Sacha Lhopital</h2>
-                <h3>Étudiante en Ingénieurie Informatique</h3>
-                <div class="social">
-                    <ul>
-                        <li><a href="https://github.com/SachaLhopital"><i class="fa fa-lg fa-github fa-3x"></i></a></li>
-                        <li><a href="https://fr.linkedin.com/in/sacha-lhopital-b6a308ba"><i class="fa fa-lg fa-linkedin-square fa-3x"></i></a></li>                        
-                        <li><a href="https://trello.com/sachapiquechoux"><i class="fa fa-lg fa-trello fa-3x"></i></a></li>
+                <div class="col-md-8">
+                    <h2>Sacha Lhopital</h2>
+                    <h3>Étudiante en Ingénieurie Informatique</h3>
+                    <div class="social">
+                        <ul>
+                            <li><a href="https://github.com/SachaLhopital"><i class="fa fa-lg fa-github fa-3x"></i></a></li>
+                            <li><a href="https://fr.linkedin.com/in/sacha-lhopital-b6a308ba"><i class="fa fa-lg fa-linkedin-square fa-3x"></i></a></li>                        
+                            <li><a href="https://trello.com/sachapiquechoux"><i class="fa fa-lg fa-trello fa-3x"></i></a></li>
 
-                    </ul>
+                        </ul>
+                    </div>
                 </div>
+                <div class="col-md-4">
+                    <div class = "thumbnail">
+                        <a href="./pdf/CV_LHOPITALSacha.pdf"><img class="img-responsive" src="images/pdf_icon.png" alt=""/></a>
+                        <div class = "caption">
+                            <h4>Télécharger mon CV</h4>
+                        </div>
+                    </div>
+                </div>
+
 
                 <ul class="nav nav-pills">
                     <li class="active"><a data-toggle="pill" href="#home">Accueil</a></li>
@@ -38,11 +49,17 @@
 
             <div class="tab-content">
 
-                <?php require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Bootstrap_Portfolio/html/home.html'); ?>
-                <?php require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Bootstrap_Portfolio/html/me.html'); ?>
-                <?php require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Bootstrap_Portfolio/html/projects.html'); ?>
-                <?php require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Bootstrap_Portfolio/html/cv.html'); ?>    
-                <?php require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Bootstrap_Portfolio/html/contact.html'); ?>
+                <?php require_once('/html/home.html'); ?>
+                <?php require_once('/html/me.html'); ?>
+                <?php require_once('/html/projects.html'); ?>
+                <?php require_once('/html/cv.html'); ?>    
+                <?php require_once('/html/contact.html'); ?>
+
+                <?php // require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Bootstrap_Portfolio/html/home.html'); ?>
+                <?php //require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Bootstrap_Portfolio/html/me.html'); ?>
+                <?php //require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Bootstrap_Portfolio/html/projects.html'); ?>
+                <?php //require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Bootstrap_Portfolio/html/cv.html'); ?>    
+                <?php //require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Bootstrap_Portfolio/html/contact.html'); ?>
             </div>
         </div>
 
@@ -62,7 +79,7 @@
 
         <!-- Back to top button script -->
         <script>
-             jQuery(document).ready(function() {
+            jQuery(document).ready(function() {
 
                 var offset = 250;
                 var duration = 300;

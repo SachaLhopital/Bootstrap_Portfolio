@@ -1,6 +1,11 @@
 # Bootstrap_Portfolio
 
-Code Source de mon portfolio personnel
+Code Source de mon portfolio personnel. 
+Ce portfolio a été réalisé en utilisant plusieurs outils : 
+    * Bootstrap
+    * Font Awesome
+    * (Un peu de) PHP
+
 
 ## Nouvelle version 
 
