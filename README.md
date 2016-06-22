@@ -1,16 +1,21 @@
-# Bootstrap_Portfolio
+# Portfolio
 
-Code Source de mon portfolio personnel. 
-Ce portfolio a été réalisé en utilisant plusieurs outils : 
-    * Bootstrap
-    * Font Awesome
-    * (Un peu de) PHP
+My portfolio about me, my work and all things I enjoy in computer science !
 
+Using : 
+- Bootstrap
+- Font Awesome
+- PHP
+- JavaScript
 
-## Nouvelle version 
+## New Version
 
 http://sachalhopital.fr/Bootstrap_Portfolio/
 
-## Ancienne version 
+## Old Versions
 
 http://sachalhopital5.wix.com/portfolio
+
+## Other
+
+Please contact me for any comment! 
