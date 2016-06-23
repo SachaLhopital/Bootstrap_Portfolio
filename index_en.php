@@ -25,7 +25,7 @@
 
                     <div class="col-sm-6" align="center">
                         <h2>  Sacha Lhopital</h2>
-                        <h3>  Étudiante en Ingénieurie Informatique</h3>
+                        <h3>  French Student - Computer Science</h3>
                         <br>
                         <div class="social">
                             <ul>
@@ -37,17 +37,17 @@
                         </div>
                         <br>
                         <ul class="nav nav-pills">
-                            <li class="active"><a data-toggle="pill" href="#home">Accueil</a></li>
-                            <li><a data-toggle="pill" href="#menu1">Qui suis-je ?</a></li>
-                            <li><a data-toggle="pill" href="#menu2">Mes projets</a></li>
-                            <li><a data-toggle="pill" href="#menu3">Embauchez-moi !</a></li>
+                            <li class="active"><a data-toggle="pill" href="#home">Home</a></li>
+                            <li><a data-toggle="pill" href="#menu1">Who am I ?</a></li>
+                            <li><a data-toggle="pill" href="#menu2">Projects</a></li>
+                            <li><a data-toggle="pill" href="#menu3">Hire me !</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-3">
                         <div class = "thumbnail">
                             <a href="./ressources/pdf/CV_LHOPITALSacha.pdf"><img class="img-responsive" src="ressources/images/pdf_icon.png" alt=""/></a>
                             <div class = "caption">
-                                <h4>Télécharger mon CV</h4>
+                                <h4>Get my resumé</h4>
                             </div>
                         </div>
                     </div>
@@ -55,21 +55,21 @@
 
                 <div class="tab-content">
 
-                    <?php require_once('/html_fr/home.html'); ?>
-                    <?php require_once('/html_fr/me.html'); ?>
-                    <?php require_once('/html_fr/projects.html'); ?>
-                    <?php require_once('/html_fr/cv.html'); ?>    
+                    <?php require_once('/html_en/home.html'); ?>
+                    <?php require_once('/html_en/me.html'); ?>
+                    <?php require_once('/html_en/projects.html'); ?>
+                    <?php require_once('/html_en/cv.html'); ?>    
 
-                    <?php // require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Bootstrap_Portfolio/html_fr/home.html'); ?>
-                    <?php //require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Bootstrap_Portfolio/html_fr/me.html'); ?>
-                    <?php //require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Bootstrap_Portfolio/html_fr/projects.html'); ?>
-                    <?php //require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Bootstrap_Portfolio/html_fr/cv.html'); ?>    
+                    <?php // require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Bootstrap_Portfolio/html_en/home.html'); ?>
+                    <?php //require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Bootstrap_Portfolio/html_en/me.html'); ?>
+                    <?php //require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Bootstrap_Portfolio/html_en/projects.html'); ?>
+                    <?php //require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Bootstrap_Portfolio/html_en/cv.html'); ?>    
                 </div>
             </div>
 
             <footer class="footer">
                 <div class="container">
-                    <p> Sité réalisé avec <i class="fa fa-heart"></i> par Sacha Lhopital </p>
+                    <p> Made with <i class="fa fa-heart"></i> by Sacha Lhopital </p>
                 </div>
             </footer>
 
