@@ -53,15 +53,15 @@
 
                 <div class="tab-content">
 
-                    <?php require_once('/html_fr/home.html'); ?>
-                    <?php require_once('/html_fr/me.html'); ?>
-                    <?php require_once('/html_fr/projects.html'); ?>
-                    <?php require_once('/html_fr/cv.html'); ?>    
+                    <?php //require_once('/html_fr/home.html'); ?>
+                    <?php //require_once('/html_fr/me.html'); ?>
+                    <?php //require_once('/html_fr/projects.html'); ?>
+                    <?php //require_once('/html_fr/cv.html'); ?>    
 
-                    <?php // require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Bootstrap_Portfolio/html_fr/home.html'); ?>
-                    <?php //require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Bootstrap_Portfolio/html_fr/me.html'); ?>
-                    <?php //require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Bootstrap_Portfolio/html_fr/projects.html'); ?>
-                    <?php //require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Bootstrap_Portfolio/html_fr/cv.html'); ?>    
+                    <?php require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Bootstrap_Portfolio/html_fr/home.html'); ?>
+                    <?php require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Bootstrap_Portfolio/html_fr/me.html'); ?>
+                    <?php require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Bootstrap_Portfolio/html_fr/projects.html'); ?>
+                    <?php require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Bootstrap_Portfolio/html_fr/cv.html'); ?>    
                 </div>
             </div>
 
