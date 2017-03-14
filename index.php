@@ -19,8 +19,6 @@
                 <div class="row">
                     <div class="col-sm-3">
                         <img class="img-thumbnail img-responsive pull-left" src="ressources/images/profile.jpg" alt="Sacha Lhopital">
-                        <a href="index.php"><img class="img-language img-responsive" src="ressources/images/fr.png" alt=""/></a>
-                        <a href="index_en.php"><img class="img-language img-responsive" src="ressources/images/en.png" alt=""/></a>
                     </div>
 
                     <div class="col-sm-6" align="center">
