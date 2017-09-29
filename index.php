@@ -23,7 +23,7 @@
 
                     <div class="col-sm-6" align="center">
                         <h2>  Sacha Lhopital</h2>
-                        <h3>  Étudiante en Ingénieurie Informatique</h3>
+                        <h3>  Étudiante en Ingénieurie Informatique - Intelligence Artificielle </h3>
                         <br>
                         <div class="social">
                             <ul>
@@ -58,16 +58,16 @@
                     <?php //require_once('/html_fr/projects.html'); ?>
                     <?php //require_once('/html_fr/cv.html'); ?>    
 
-                    <?php require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Bootstrap_Portfolio/html_fr/home.html'); ?>
-                    <?php require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Bootstrap_Portfolio/html_fr/me.html'); ?>
-                    <?php require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Bootstrap_Portfolio/html_fr/projects.html'); ?>
-                    <?php require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Bootstrap_Portfolio/html_fr/cv.html'); ?>    
+                    <?php require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Portfolio/html_fr/home.html'); ?>
+                    <?php require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Portfolio/html_fr/me.html'); ?>
+                    <?php require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Portfolio/html_fr/projects.html'); ?>
+                    <?php require_once('/customers/0/7/1/sachalhopital.fr//httpd.www/Portfolio/html_fr/cv.html'); ?>    
                 </div>
             </div>
 
             <footer class="footer">
                 <div class="container">
-                    <p> Sité réalisé avec <i class="fa fa-heart"></i> par Sacha Lhopital </p>
+                    <p> Site réalisé avec <i class="fa fa-heart"></i> par Sacha Lhopital </p>
                 </div>
             </footer>
 

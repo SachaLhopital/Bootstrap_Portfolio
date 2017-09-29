@@ -10,7 +10,7 @@ Using :
 
 ## New Version
 
-http://sachalhopital.fr/Bootstrap_Portfolio/
+http://sachalhopital.fr/Portfolio/
 
 ## Old Versions
 
